@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendario</title>
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <label for="nombre">
+          <span>¿Cual es tu nombre?</span>
+          <input type="text" name="txtNombre" id="nombre" autocomplete="name" required />
+        </label><br>
+        <label for="correo">
+          <span>¿Cual es tu correo?</span>
+          <input type="email" name="txtCorreo" id="correo" autocomplete="email" required />
+        </label><br>
+        <label for="pias">
+          <span>¿En que país vives?</span>
+          <input type="text" name="txtPais" id="pais" autocomplete="country" required />
+        </label><br>
+        <label for="cp">
+          <span>¿Cual es tu código postal?</span>
+          <input type="text" name="txtCP" id="cp" autocomplete="postal-code" required />
+        </label><br>
+        <label for="sex">
+            <span>¿Cual es tu sexo?</span>
+            <input type="text" name="txtSexo" id="sex" autocomplete="sex" required />
+          </label><br>
+          
+        <input type="reset" value="Limpiar">
+        <input type="submit" value="Enviar">
+      </form>
+    </main>
+  </body>
+</html>

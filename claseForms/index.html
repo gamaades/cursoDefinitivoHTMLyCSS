@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="nombre">
+            <span>¿Cúal es tu nombre?</span>
+            <input type="text" name="txtNombre" id="nombre" placeholder="Diego De Granda">
+        </label><br>
+        <label for="inicio-platzi">
+            <span>Qué día comenzaste en Platzi?</span>
+            <input type="date" name="txtInicioPlatzi" id="inicio-platzi">
+        </label><br>
+        <label for="horario">
+            <span>¿En que horario estudias?</span>
+            <input type="time" name="txtHorario" id="horario">
+        </label><br>
+        <label for="boton">
+            <span>Pulsa el boton</span>
+            <input type="button" onclick="window.alert('Pulsaste el boton')" value="Pulsame" id="boton">
+        </label><br>
+        <label for="correo">
+            <span>¿Cual es tu correo?</span>
+            <input type="email" name="txtEmail" id="correo">
+        </label><br>
+        <label for="archivo">
+            <span>¿Archivo que subir?</span>
+            <input type="file" name="" id="archivo">
+        </label><br>
+        <label for="imagen">
+            <span>Imagen</span>
+            <input type="image" src="" alt="Acá va una imagen">
+        </label><br>
+        <label for="mes">
+            <span>Algún mes en especial?</span>
+            <input type="month" name="" id="mes">
+        </label><br>
+        <label for="numero">
+            <span>Algún número?</span>
+            <input type="number" name="" id="numero">
+        </label><br>
+        <label for="clave">
+            <span>Ingresa tu clave</span>
+            <input type="password" name="" id="clave">
+        </label><br>
+        <label for="mascota">
+            <span>¿Elige uno?</span>
+            <input type="radio" name="mascotaPreferida" id="" required>Perro
+            <input type="radio" name="mascotaPreferida" id="" required>Gato
+        </label><br>
+        <label for="rango">
+            <span>¿Rango de edad?</span>
+            <input type="range" name="" id="rango" min="20" max="60" required> Edad
+        </label><br>
+        <label for="buscador">
+            <span>¿Buscas algo?</span>
+            <input type="search" id="buscador" value="">
+        </label><br>
+        <label for="celular">
+            <span>Escribe tu telefono</span>
+            <input type="tel" name="txtCelular" id="celular">
+        </label><br>
+        <label for="hora">
+            <span>¿Que hora es?</span>
+            <input type="time" name="" id="hora">
+        </label><br>
+        <label for="pagina">
+            <span>Indica tu página web</span>
+            <input type="url" name="txtPage" id="pagina" required>
+        </label><br>
+        <label for="semana">
+            <span>Indica que semana es</span>
+            <input type="week" name="" id="semana">
+        </label><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+</body>
+</html>

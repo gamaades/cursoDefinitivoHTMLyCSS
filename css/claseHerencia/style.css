@@ -1,0 +1,8 @@
+html {
+  font-size: 75%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1{
+    font-size: inherit; /* Con esta opción hereda de main, pero como no exite heredara de body, como body no existe, hereda de html, y este esta al 75%, por eso queda más pequeña. */
+}

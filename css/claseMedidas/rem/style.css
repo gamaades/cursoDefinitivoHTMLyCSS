@@ -1,0 +1,18 @@
+/* Reiniciar margin y padding y colocar el estilo en el box-sizing para no tener problemas con el tamaño de los contenedores. hay que setear el tamaño de fuente en la etiqueta de HTML en 62.5%, de esta manera ya se puede utilizar rem como si fueran px, teniendo siempre en cuenta la división esperada. */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+main div {
+    font-size: 1.6rem;
+}

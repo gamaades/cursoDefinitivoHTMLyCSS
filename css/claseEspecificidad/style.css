@@ -10,33 +10,37 @@ h1 {
   margin-bottom: 12px;
 }
 
-#page-title {
+/* #page-title {
   font-family: Arial, Helvetica, sans-serif;
-}
+} */ /* Se comento porque más abajo se tomara el font-family */
 
 .title {
   font-size: 20px;
   font-family: monospace;
 }
 
-#main-nav{
-    margin-top: 12px;
-    list-style: none;
-    padding-left: 0;
+/* #main-nav{ comentamos el ID y llamamos la clase directa y aplicar donde pase lo mismo (llamen al id) */
+.nav {
+  margin-top: 12px;
+  list-style: none;
+  padding-left: 0;
 }
 
-#main-nav li{
-    display: inline-block;
+/* #main-nav li{ */
+.nav li {
+  display: inline-block;
 }
 
-#main-nav a{
-    color: white;
-    background-color: #13a4a4;
-    padding: 4px;
-    border-radius: 4px;
-    text-decoration: none;
+/* #main-nav a{ */
+.nav a {
+  color: white;
+  background-color: #13a4a4;
+  padding: 4px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 
-#main-nav .blog {
-    background-color: red;
+.nav .blog {
+  background-color: goldenrod;
+  /*background-color: goldenrod !important; /* Esto es una mala practica!, se hizo porque en el selector hay un estilo envevido. */
 }

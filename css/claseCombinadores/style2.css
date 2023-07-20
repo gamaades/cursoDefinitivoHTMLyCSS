@@ -1,0 +1,3 @@
+h2 ~ p { /* Combinador, hermano general. Se aplicara color azul a todas los parrafos que tengan un hermano general a un h2. Este aplicara a todas las p el cambio de color azul ya que hay un hermano h2 general, menos a que esta despues del h1, ya que no entra dentro de la regla. */
+    color: blue;
+}

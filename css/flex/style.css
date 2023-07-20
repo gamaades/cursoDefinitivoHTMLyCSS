@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+border: 0.3rem solid black; /* 0.3rem quiere decir que son 3 pixeles, esto es por la escala que se coloco arriba.*/
+display: flex;
+/* flex-direction:row-reverse *//* lo cambia de orientacion */
+flex-wrap: wrap;/* hace que no tenga scroll, ya que cuando se achica la pantalla se van bajando los cuadrados */
+justify-content: center; /* con esta opcion podemos centrar el contenido de nuestro contenedor. */
+justify-content: flex-start; /* con esta opcion podemos colocar todo el contenido a la izquierda. */
+justify-content: flex-end; /* con esta opcion podemos colocar todo el contenido a la derecha. */
+justify-content: space-around; /* con esta opcion podemos colocar espacio entre los objetos de manera automatica. */
+justify-content: space-evenly; /* con esta opcion podemos colocar espacio entre los objetos de manera automatica y todos del mismo ancho. */
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1{
+    background-color: blue;
+}
+
+.box2{
+    background-color: blueviolet;
+}
+
+.box3{
+    background-color: burlywood;
+}
+
+.box4{
+    background-color: cadetblue;
+}
+
+.box5{
+    background-color: coral;
+}
+
+.box6{
+    background-color: salmon;
+}

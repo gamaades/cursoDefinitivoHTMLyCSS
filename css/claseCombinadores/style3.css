@@ -1,0 +1,14 @@
+/* child | Hijo directo */
+div > p {
+  /* Etiqueta parrafo que sea hija directa de una etiqueta div, a esa etiqueta se agregara el siguiente estilo. (Parrafo 3 y 4) */
+  color: brown;
+}
+
+/* Descendiente */
+div p{
+    color: blueviolet;
+}
+
+.box p {
+    color: red;
+}

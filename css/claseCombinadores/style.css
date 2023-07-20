@@ -1,0 +1,3 @@
+h2 + p{ /* Combinador, hermano cercano. Se aplicara color rojo a todas los parrafos que estan cerca de un h2 */
+    color: red;
+}
